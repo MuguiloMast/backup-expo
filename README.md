@@ -8,6 +8,6 @@ relatorio:
 
 -Leonardo José Cabral:
 
--Murilo Antonio Fernades Correa:
+-Murilo Antonio Fernandes Correa:
 
 -Cauã Lenart Serra:
