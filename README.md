@@ -9,6 +9,6 @@ relatorio:
 
 -Leonardo José Cabral: 
 
--Murilo Antonio Fernandes Correa: Criou o repositorio pelo github, fez o upload do arquivo de POO ao github, ajudou a programar o código...
+-Murilo Antonio Fernandes Correa: Criou o repositório pelo github, fez o upload do arquivo de POO ao github, ajudou a programar o código...
 
 -Cauã Lenart Serra: 
