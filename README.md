@@ -4,17 +4,22 @@ relatorio:
 ###Código POO
 
 -Pedro Henrique Vicente Amaro: 
+
 Model: Clientes
 
 -Marina G. Neves:
+
 Model: Doces
 
--Leonardo José Cabral: 
+-Leonardo José Cabral:
+
 Model: Funcionarios
 
 -Murilo Antonio Fernandes Correa:
 App: App, Main
+
 Model: Clientes, Doces, Estoque, Funcionarios
+
 Validacoes: Validacoes
 
 ###Jogo
