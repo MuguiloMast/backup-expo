@@ -10,16 +10,17 @@ Model: Clientes
 Model: Doces
 
 -Leonardo José Cabral: 
+Model: Funcionarios
 
 -Murilo Antonio Fernandes Correa:
-app: App, Main
-model: Clientes, Doces, Estoque, Funcionarios
-validacoes: Validacoes
+App: App, Main
+Model: Clientes, Doces, Estoque, Funcionarios
+Validacoes: Validacoes
 
 ###Jogo
 
 -Cauã Lenart Serra:
-backend: Senha, Verificacao, Validacao
+Backend: Senha, Verificacao, Validacao
 
 -Rebeca Flauzino Luchini A.: 
-frontend:...
+Frontend: ...
