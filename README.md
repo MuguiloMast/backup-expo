@@ -1,14 +1,25 @@
 # backup-expo
 relatorio:
 
--Pedro Henrique Vicente Amaro: Ajudou na programou o código de POO, ...
+###Código POO
 
--Marina G. Neves: Ajudou na programou o código de POO, ...
+-Pedro Henrique Vicente Amaro: 
+Model: Clientes
 
--Rebeca Flauzino Luchini A.: 
+-Marina G. Neves:
+Model: Doces
 
 -Leonardo José Cabral: 
 
--Murilo Antonio Fernandes Correa: Criou o repositório pelo github, fez o upload do arquivo de POO para github, ajudou a programar o código...
+-Murilo Antonio Fernandes Correa:
+app: App, Main
+model: Clientes, Doces, Estoque, Funcionarios
+validacoes: Validacoes
 
--Cauã Lenart Serra: Ajudou na programou o código de POO, ...
+###Jogo
+
+-Cauã Lenart Serra:
+backend: Senha, Verificacao, Validacao
+
+-Rebeca Flauzino Luchini A.: 
+frontend:...
