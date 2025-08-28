@@ -13,19 +13,19 @@ Model: Doces, Clientes, Funcionários
 Model: Funcionarios
 
 -Murilo Antonio Fernandes Correa:
-App: App, Main
+App: Main
 Model: Clientes, Doces, Estoque, Funcionarios
 Validacoes: Validacoes
 
 -Rebeca Luchini Flauzino A.:
-Model: Estoque
+ App: Main
 
 ###Jogo
 
 -Cauã Lenart Serra:
 
-Backend: Senha, Verificacao, Validacao
+Backend: Senha, Validacao
 
 -Rebeca Flauzino Luchini A.: 
 
-Frontend: ...
+python: Verificacao
