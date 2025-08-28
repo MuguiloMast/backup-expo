@@ -1,9 +1,9 @@
 package loja_de_doces.model;
 
 public class Doces {
-    protected String nomeDoces;
-    protected int valor;
-    protected String sabor;
+    private String nomeDoces;
+    private int valor;
+    private String sabor;
 
     public Doces(String nomeDoces, int valor, String sabor){
         this.nomeDoces = nomeDoces;

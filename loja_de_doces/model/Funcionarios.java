@@ -1,38 +1,39 @@
 package loja_de_doces.model;
 
 public class Funcionarios {
-    protected String nomeFuncionario;
-    protected Int CPF;
-    protected String funcao; 
+    private static String NomeFuncionarios = null;
 
-    public Funcionarios(String nome_Funcionario, int CPF, string funcao) {
-        this.nomeFuncionario = nome_Funcionario;
-        this.cpf= CPF;
-        this.funcao = funcao;
+    protected int CPF;
+    protected String Funcao;
+
+    public Funcionarios(String NomeFuncionarios, int CPF, String funcao) {
+        this.NomeFuncionarios = NomeFuncionarios;
+        this.CPF = CPF;
+        this.Funcao = Funcao;
     }
 
-    public void setNomeFuncionarios(String nomeFuncionario) {
-        this.NomeFuncionarios= NomeFuncionarios;
+    public void setNomeFuncionarios(String NomeFuncionarios) {
+        this.NomeFuncionarios = NomeFuncionarios;
     }
 
     public void setCPF(int CPF) {
         this.CPF = CPF;
     }
 
-    public void setfuncao(String funcao ) {
-        this.funcao = funcao;
+    public void setFuncao(String Funcao) {
+        this.Funcao = Funcao;
     }
 
-    public String getnomeFuncionario() {
-        return nomeFuncionario;
-    }  
-    
+    public String getNomeFuncionarios() {
+        return NomeFuncionarios;
+    }
+
     public int getCPF() {
         return CPF;
     }
 
-    public string getfuncao() {
-        return funcao;
+    public String getFuncao() {
+        return Funcao;
     }
 
 }

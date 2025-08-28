@@ -1,17 +1,14 @@
 package loja_de_doces.model;
 
-import loja_de_doces.model.Doces.java;
-
 public class Clientes {
-    protected String nome;
-    protected String endereco;
-    protected int CPF;
-    
+    private String nome;
+    private String endereco;
+    private int CPF;
 
-    public Clientes(String nome, String endereco, int CPF){
+    public Clientes(String nome, String endereco, int CPF) {
         this.nome = nome;
         this.endereco = endereco;
-        this.CPF= CPF;
+        this.CPF = CPF;
     }
 
     public void setNome(String nome) {
@@ -38,6 +35,3 @@ public class Clientes {
         return CPF;
     }
 }
-
-
-    
