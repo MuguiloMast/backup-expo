@@ -13,12 +13,12 @@ Model: Doces, Clientes, Funcionários
 Model: Funcionarios, Doces
 
 -Murilo Antonio Fernandes Correa:
-App: App, Main
+App: Main
 Model: Clientes, Doces, Estoque, Funcionarios
 Validacoes: Validacoes
 
 -Rebeca Luchini Flauzino A.:
-Model: Estoque
+App: Main
 
 ###
 sugestões de doces para teste do projeto:
@@ -34,11 +34,10 @@ sugestões de doces para teste do projeto:
 
 -Cauã Lenart Serra:
 
-Backend: Senha, Verificacao, Validacao
+Backend: Senha, Validacao
 
 -Rebeca Flauzino Luchini A.: 
-
-Frontend: ...
+Python: Verificacao
 
 
 
