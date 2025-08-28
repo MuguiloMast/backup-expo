@@ -1,9 +1,11 @@
 package loja_de_doces.model;
 
+import loja_de_doces.model.Doces.java;
+
 public class Clientes {
-    private String nome;
-    private String endereco;
-    private int CPF;
+    protected String nome;
+    protected String endereco;
+    protected int CPF;
     
 
     public Clientes(String nome, String endereco, int CPF){
