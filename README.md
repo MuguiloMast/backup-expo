@@ -14,7 +14,7 @@ Model: Funcionarios, Doces
 
 -Murilo Antonio Fernandes Correa:
 App: Main
-Model: Clientes, Doces, Estoque, Funcionarios
+Model: Clientes, Doces, Estoque, Funcionarios, Produtos
 Validacoes: Validacoes
 
 -Rebeca Luchini Flauzino A.:
