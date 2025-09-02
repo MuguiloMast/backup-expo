@@ -1,39 +1,73 @@
-package loja_de_doces.model;
-
 public class Funcionarios {
-    private static String NomeFuncionarios = null;
+    private static String nomeFuncionarios = null;
+    protected int cpf;
+    protected String funcao;
 
-    protected int CPF;
-    protected String Funcao;
-
-    public Funcionarios(String NomeFuncionarios, int CPF, String funcao) {
-        this.NomeFuncionarios = NomeFuncionarios;
-        this.CPF = CPF;
-        this.Funcao = Funcao;
+    public Funcionarios(String nomeFuncionarios, String funcao, int cpf) {
+        this.nomeFuncionarios = nomeFuncionarios;
+        this.cpf = cpf;
+        this.funcao = funcao;
     }
 
-    public void setNomeFuncionarios(String NomeFuncionarios) {
-        this.NomeFuncionarios = NomeFuncionarios;
+    public Funcionarios(String nome, String cpf2, String funcao2) {
+        //TODO Auto-generated constructor stub
     }
 
-    public void setCPF(int CPF) {
-        this.CPF = CPF;
+    public void setNomeFuncionarios(String nomeFuncionarios) {
+        this.nomeFuncionarios = nomeFuncionarios;
     }
 
-    public void setFuncao(String Funcao) {
-        this.Funcao = Funcao;
+    public void setCPF(int cpf) {
+        this.cpf = cpf;
+    }
+
+    public void setFuncao(String funcao) {
+        this.funcao = funcao;
     }
 
     public String getNomeFuncionarios() {
-        return NomeFuncionarios;
+        return nomeFuncionarios;
     }
 
     public int getCPF() {
-        return CPF;
+        return cpf;
     }
 
     public String getFuncao() {
-        return Funcao;
+        return funcao;
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + cpf;
+        result = prime * result + ((funcao == null) ? 0 : funcao.hashCode());
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Funcionarios other = (Funcionarios) obj;
+        if (cpf != other.cpf)
+            return false;
+        if (funcao == null) {
+            if (other.funcao != null)
+                return false;
+        } else if (!funcao.equals(other.funcao))
+            return false;
+        return true;
+    }
+
+    public static void add(Funcionarios funcionarios) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'add'");
     }
 
 }

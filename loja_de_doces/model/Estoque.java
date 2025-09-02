@@ -1,8 +1,4 @@
-package loja_de_doces.model;
-
-    import loja_de_doces.model.Clientes;
-    import loja_de_doces.model.Doces;
-    import loja_de_doces.model.Funcionarios;
+import java.util.List;
 
 public class Estoque {
     private String dataprodutos;
@@ -11,7 +7,9 @@ public class Estoque {
     public Estoque(String dataprodutos, int quantidade) {
         this.dataprodutos = dataprodutos;
         this.quantidade = quantidade;
+    }
 
+    public Estoque() {
     }
 
     public void setDataprodutos(String dataprodutos) {
@@ -28,6 +26,26 @@ public class Estoque {
 
     public int getQuantidade() {
         return quantidade;
+    }
+
+    public boolean cadastrarProduto(Produto p1) {
+        throw new UnsupportedOperationException("Unimplemented method 'cadastrarProduto'");
+    }
+
+    public boolean atualizarEstoque(int i, int j) {
+        throw new UnsupportedOperationException("Unimplemented method 'atualizarEstoque'");
+    }
+
+    public boolean removerProduto(int codigo) {
+        throw new UnsupportedOperationException("Unimplemented method 'removerProduto'");
+    }
+
+    public List<Produto> buscarProdutoPorNome(String termo) {
+        throw new UnsupportedOperationException("Unimplemented method 'buscarProdutoPorNome'");
+    }
+
+    public void listarProdutos() {
+        throw new UnsupportedOperationException("Unimplemented method 'listarProdutos'");
     }
 
 }

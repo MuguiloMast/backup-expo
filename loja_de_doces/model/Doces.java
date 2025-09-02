@@ -1,9 +1,8 @@
-package loja_de_doces.model;
-
 public class Doces {
     private String nomeDoces;
     private int valor;
     private String sabor;
+
 
     public Doces(String nomeDoces, int valor, String sabor){
         this.nomeDoces = nomeDoces;
@@ -33,6 +32,13 @@ public class Doces {
 
     public String getSabor() {
         return sabor;
+    }
+
+    @Override
+    public String toString() {
+        return "Doces [nomeDoces=" + nomeDoces + ", valor=" + valor + ", sabor=" + sabor + ", getNomeDoces()="
+                + getNomeDoces() + ", getValor()=" + getValor() + ", getSabor()=" + getSabor() + ", getClass()="
+                + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
     }
 
 }
