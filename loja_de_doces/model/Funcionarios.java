@@ -1,6 +1,10 @@
 public class Funcionarios {
     private static String nomeFuncionarios = null;
+    public static void add(Funcionarios funcionarios) {
+        throw new UnsupportedOperationException("Unimplemented method 'add'");
+    }
     protected int cpf;
+
     protected String funcao;
 
     public Funcionarios(String nomeFuncionarios, String funcao, int cpf) {
@@ -10,7 +14,6 @@ public class Funcionarios {
     }
 
     public Funcionarios(String nome, String cpf2, String funcao2) {
-        //TODO Auto-generated constructor stub
     }
 
     public void setNomeFuncionarios(String nomeFuncionarios) {
@@ -63,11 +66,6 @@ public class Funcionarios {
         } else if (!funcao.equals(other.funcao))
             return false;
         return true;
-    }
-
-    public static void add(Funcionarios funcionarios) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'add'");
     }
 
 }

@@ -7,8 +7,6 @@ public class Main {
     private static Estoque estoque = new Estoque();
     private static Scanner scanner = new Scanner(System.in);
     private static final List<Funcionarios> funcionarios = new ArrayList<>();
-    private static String[] args;
-
     public static void main(String[] args) {
         boolean executando = true;
 
@@ -85,8 +83,7 @@ public class Main {
 
     private static int lerOpcao() {
         try {
-            int opcao = Integer.parseInt(scanner.nextLine());
-            return opcao;
+            return Integer.parseInt(scanner.nextLine());
         } catch (NumberFormatException e) {
             return -1; // Retorna opção inválida
         }
@@ -192,8 +189,7 @@ public class Main {
     }
 
     {
-        String[] args2 = args;
-        Main.args = args;
+        
         System.out.println("=== Sistema de Gestão Clientes e Funcionarios ===\n");
 
         int opcao;
