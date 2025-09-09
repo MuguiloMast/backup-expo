@@ -20,6 +20,10 @@ Validacoes: Validacoes
 -Rebeca Luchini Flauzino A.:
 App: Main
 
+-Cauã Lenart:
+App: Main (Correção de erros)
+Model: correção de erros
+
 ###
 sugestões de doces para teste do projeto:
 -kit kat caramelo salgado 3,49
@@ -32,9 +36,6 @@ sugestões de doces para teste do projeto:
 
 ###Jogo
 
--Cauã Lenart Serra:
-
-Backend: Senha, Validacao
 
 -Rebeca Flauzino Luchini A.: 
 Python: Verificacao
