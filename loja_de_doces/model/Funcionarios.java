@@ -1,5 +1,5 @@
 public class Funcionarios {
-    private static String nomeFuncionarios = null;
+    private String nomeFuncionarios = null;
     public static void add(Funcionarios funcionarios) {
         throw new UnsupportedOperationException("Unimplemented method 'add'");
     }
@@ -13,8 +13,6 @@ public class Funcionarios {
         this.funcao = funcao;
     }
 
-    public Funcionarios(String nome, String cpf2, String funcao2) {
-    }
 
     public void setNomeFuncionarios(String nomeFuncionarios) {
         this.nomeFuncionarios = nomeFuncionarios;

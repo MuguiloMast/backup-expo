@@ -1,51 +1,39 @@
-import java.util.List;
-
 public class Estoque {
-    private String dataprodutos;
+    private int id;
+    private Produtos produto;
     private int quantidade;
 
-    public Estoque(String dataprodutos, int quantidade) {
-        this.dataprodutos = dataprodutos;
+    public Estoque(int id, Produtos produto, int quantidade) { // Construtor
+        this.id = id;
+        this.produto = produto;
         this.quantidade = quantidade;
     }
 
-    public Estoque() {
+    // Getters e Setters
+    public int getId() {
+        return id;
     }
-
-    public void setDataprodutos(String dataprodutos) {
-        this.dataprodutos = dataprodutos;
+    public void setId(int id) {
+        this.id = id;
     }
-
+    public Produtos getProduto() {
+        return produto;
+    }
+    public void setProduto(Produtos produto) {
+        this.produto = produto;
+    }
+    public int getQuantidade() {
+        return quantidade;
+    }
     public void setQuantidade(int quantidade) {
         this.quantidade = quantidade;
     }
 
-    public String getDataprodutos() {
-        return dataprodutos;
-    }
+    //metodos especificos para a classe estoque
 
-    public int getQuantidade() {
-        return quantidade;
+    @Override // Método toString para exibir informações do estoque
+    public String toString() {
+        return "Estoque [id=" + id + ", produto=" + produto + ", quantidade=" + quantidade + "]";
     }
-
-    public boolean cadastrarProduto(Produto p1) {
-        throw new UnsupportedOperationException("Unimplemented method 'cadastrarProduto'");
-    }
-
-    public boolean atualizarEstoque(int i, int j) {
-        throw new UnsupportedOperationException("Unimplemented method 'atualizarEstoque'");
-    }
-
-    public boolean removerProduto(int codigo) {
-        throw new UnsupportedOperationException("Unimplemented method 'removerProduto'");
-    }
-
-    public List<Produto> buscarProdutoPorNome(String termo) {
-        throw new UnsupportedOperationException("Unimplemented method 'buscarProdutoPorNome'");
-    }
-
-    public void listarProdutos() {
-        throw new UnsupportedOperationException("Unimplemented method 'listarProdutos'");
-    }
-
+    
 }

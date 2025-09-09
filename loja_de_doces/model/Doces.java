@@ -1,47 +1,36 @@
-
-
-public class Doces {
-    private String nomeDoces;
-    private int valor;
+public class Doces extends Produtos{ // Classe de modelo para doces, que herda de Produtos
     private String sabor;
+    private boolean contemGluten;
 
-
-    public Doces(String nomeDoces, int valor, String sabor){
-        this.nomeDoces = nomeDoces;
-        this.valor = valor;
-        this.sabor= sabor;
+    public Doces(int id, String nome, double preco, int quantidade, String sabor, boolean contemGluten) { // Construtor
+        super(id, nome, preco, quantidade);
+        this.sabor = sabor;
+        this.contemGluten = contemGluten;
     }
 
-    public void setNomeDoces(String nomeDoces) {
-        this.nomeDoces= nomeDoces;
-    }
-
-    public void setValor(int valor) {
-        this.valor = valor;
+    // Getters e Setters
+    public String getSabor() {
+        return sabor;
     }
 
     public void setSabor(String sabor) {
         this.sabor = sabor;
     }
 
-    public String getNomeDoces() {
-        return nomeDoces;
-    }  
-    
-    public int getValor() {
-        return valor;
+    public boolean isContemGluten() {
+        return contemGluten;
     }
 
-    public String getSabor() {
-        return sabor;
+    public void setContemGluten(boolean contemGluten) {
+        this.contemGluten = contemGluten;
     }
 
-    @Override
+
+    //metodos especificos para a classe doces
+
+    @Override // Método toString para exibir informações do doce
     public String toString() {
-        return "Doces [nomeDoces=" + nomeDoces + ", valor=" + valor + ", sabor=" + sabor + ", getNomeDoces()="
-                + getNomeDoces() + ", getValor()=" + getValor() + ", getSabor()=" + getSabor() + ", getClass()="
-                + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+        return "Doces [sabor=" + sabor + ", contemGluten=" + contemGluten + ", toString()=" + super.toString() + "]";
     }
 
 }
- 
