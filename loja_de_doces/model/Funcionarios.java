@@ -1,8 +1,6 @@
 public class Funcionarios {
     private String nomeFuncionarios = null;
-    public static void add(Funcionarios funcionarios) {
-        throw new UnsupportedOperationException("Unimplemented method 'add'");
-    }
+   
     protected int cpf;
 
     protected String funcao;
